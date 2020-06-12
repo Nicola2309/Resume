@@ -12,33 +12,34 @@
 <body>
 <header>
 <!--No-gutters: toglie il padding automatico che bootstrap aggiunge alle col delle row.
- Togliendolo stringiamo e abbelliamo la presentazione-->
+ Togliendolo stringiamo e abbelliamo la presentazione, non funziona pero'. Provero' con col-md-auto-->
+
     <div class="row no-gutters">
        <a href="index.html" class="col-md-4 logo"> 
        </a>
 
-       <div class="col-md-8">
-           <div class="row bg-color-name-title no-gutters">
-              <div class="col heading">
+       <div class="col-md-8 ">
+           <div class="row no-gutters bg-color-name-title ">
+              <div class="col heading col-md-auto">
                 <h1 class="name">Curious Face</h1>
                 <h2 class="title"> Watchman</h2>
               </div>
            </div>
            <!--Nav elements, appearing under name/title div-->
            <div class="row no-gutters">
-        <div class="col">
-            <ul id="nav" class="list-line menucontainer">
-                <li class="col-6 col-sm-3 ui-menu-color-home list-inline-item">
-                    <a href="#"><span>Home</span></a>
+        <div class="col ">
+            <ul id="nav" class="list-line menucontainer" style="padding-left:0px;">
+                <li class="col-6 col-sm-3 ui-menu-color-home list-inline-item menuitem ">
+                    <a href="#"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
                 </li>
-                <li class="col-6 col-sm-3 ui-menu-color-resume list-inline-item">
-                    <a href="#"><span>Resume</span></a>
+                <li class="col-6 col-sm-3 ui-menu-color-resume list-inline-item menuitem">
+                    <a href="#"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
                 </li>
-                <li class="col-6 col-sm-3 ui-menu-color-contact list-inline-item">
-                    <a href="#"><span>Contact</span></a>
+                <li class="col-6 col-sm-3 ui-menu-color-contact list-inline-item menuitem">
+                    <a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i><span>Contact</span></a>
                 </li>
-                <li class="col-6 col-sm-3 ui-menu-color-download list-inline-item">
-                    <a href="#"><span>Download</span></a>
+                <li class="col-6 col-sm-3 ui-menu-color-download list-inline-item menuitem">
+                    <a href="#"><i class="fa fa-download" aria-hidden="true"></i><span>Download</span></a>
                 </li>
             </ul>
         </div>
