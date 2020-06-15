@@ -51,12 +51,34 @@
 
 </header>
 
-<section>
+<section class="container-fluid">
+
+<!--Creiamo un Bootstrap Row, come standard. 
+Row-Table da alle nostre colonne la proprieta' di rimanere uguali indipendentemente dal contenuto. Simmetria, bella.-->
+
+    <div class="row row-table">
+
+    <!--three-reasons serve a stilizzare le 3 ragioni per essere assunti, seciont-columns ci ricorda che
+    la column del div e' una cella del table che andremo a creare-->
+        
+        <div class="col-md-8 bg-color-three-reasons section-columns">
+
+            <!-- Ogni colonna avra' un header, che spiega il contenuto della colonna in questione.
+            Per ottenere questo creiamo un Row e una Column, come impalcatura-->
+
+            <div class="row">
+                <div class="col">
+                 <h3 class="section-heading uppercase">About Me</h3>
+                 
+                </div>
+            </div>
+        </div>
+    </div>
 
 </section>
 
 <footer class="container-fluid">
-   <div class="row">
+   <div id="footer-details" class="row">
         <div class="col-sm-4">
            <h5 class="uppercase general-sub"> About</h5>
            <p class="inline-block">
