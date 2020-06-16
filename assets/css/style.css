@@ -10,6 +10,10 @@
      background-color: #fff;
 }
 
+.bg-color-personal-info{
+    background-color: #f4f4f4;
+}
+
 .ui-menu-color-home{
     background-color: #e67e22;
 }
@@ -46,7 +50,7 @@ h1,h2,h3,h4{
     tra loro*/
 
 .row-table { 
-    display: table;
+    ;
     }
  
     /*Eccolo, la table-cell definisce il child del table.*/
@@ -58,7 +62,7 @@ h1,h2,h3,h4{
 .section-column {
    
     display: table-cell;
-    padding: 0 30px 30px;
+    padding: 0 30px 0 30px;
     float: none;
 }
 .section-heading {
@@ -82,7 +86,7 @@ header {
 }
 
 .logo{
-background : url(../images/face.jpg);
+background : url(../images/img.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -218,3 +222,15 @@ transition: all 0.35s ease-in-out;
 #footer-details{
     padding:20px;
 }
+
+/*-----------------------------------------------Three Reasons*/
+
+.three-reasons-icon {
+     font-size:26px ;
+    color: #e67e22;
+}
+
+.three-reasons-heading{
+    margin-bottom: 15px;
+}
+

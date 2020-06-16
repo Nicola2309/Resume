@@ -22,8 +22,8 @@
        <div class="col-md-8 ">
            <div class="row no-gutters bg-color-name-title ">
               <div class="col heading col-md-auto">
-                <h1 class="name">Curious Face</h1>
-                <h2 class="title"> Watchman</h2>
+                <h1 class="name">N. Spigaglia</h1>
+                <h2 class="title"> Junior Software Developer</h2>
               </div>
            </div>
            <!--Nav elements, appearing under name/title div-->
@@ -54,9 +54,70 @@
 <section class="container-fluid">
 
 <!--Creiamo un Bootstrap Row, come standard. 
-Row-Table da alle nostre colonne la proprieta' di rimanere uguali indipendentemente dal contenuto. Simmetria, bella.-->
+Row-Table da alle nostre colonne la proprieta' di rimanere uguali indipendentemente dal contenuto. Simmetria, bella.
+Abbiamo rimosso la row-table perche' da problemi di collocamento delle colonne.
+abbiamo definito le loro dimensioni e posizioni una ad una.-->
 
-    <div class="row row-table">
+    <div class="row">
+        <div class="col-md-4 bg-color-personal-info section-column">
+            <div class="row">
+            
+                <div class="col-12">
+                    <h3 class="section-heading uppercase">
+                    Personal Info
+                    </h3>   
+                </div>
+            </div>
+                <div class="personal-info-item">
+                        <div class="key">
+                            <p>
+                              Name:
+                            </p>
+                        </div>
+                    <div class="value">
+                            <p>
+                              Rosie Odenkerk
+                            </p>
+                    </div>
+                </div>
+                <div class="personal-info-item">
+                        <div class="key">
+                            <p>
+                              Address:
+                            </p>
+                        </div>
+                    <div class="value">
+                            <p>
+                              17 Riverdale, Catskills, NY USA
+                            </p>
+                    </div>
+                </div>
+                <div class="personal-info-item">
+                        <div class="key">
+                            <p>
+                              Phone:
+                            </p>
+                        </div>
+                    <div class="value">
+                            <p>
+                              10000011
+                            </p>
+                    </div>
+                </div>
+                <div class="personal-info-item">
+                        <div class="key">
+                            <p>
+                             Email Address:
+                            </p>
+                        </div>
+                    <div class="value">
+                            <p>
+                              xmpl@xmpl.com
+                            </p>
+                    </div>
+                </div>
+        </div>
+   
 
     <!--three-reasons serve a stilizzare le 3 ragioni per essere assunti, seciont-columns ci ricorda che
     la column del div e' una cella del table che andremo a creare-->
@@ -69,8 +130,67 @@ Row-Table da alle nostre colonne la proprieta' di rimanere uguali indipendenteme
             <div class="row">
                 <div class="col">
                  <h3 class="section-heading uppercase">About Me</h3>
-                 
+
                 </div>
+            </div>
+            <div class="row">
+
+            <!--When looked at on the mobile, this is going to be 10 columns wide
+             with an offset of 1 so that we get the content centered and
+             have a one column margin down the left side.
+             On a desktop, we want it to appear in two columns.
+
+             As we said, though, we have three content sections.
+             But there's only room for two on the desktop, so one of them will fluidly move 
+             to the bottom below the other two.
+             Now we're going to use a Font Awesome icon to identify each one of these.
+             -->
+             <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                <div class="row">
+                    <div class="col-2">
+                        <i class="three-reasons-icon fa fa-question"
+                        aria-hidden="true"></i>
+                    </div>
+                    <div class="col-10">
+                        <h4 class="three-reasons-heading uppercase">What do i do?</h4>
+                        <p>
+                        I'm a skilled FullStack Developer in my dreams at the moment,<br>
+                        i'd like to become it asap and fill the world with awesome content!
+                        </p>
+                    </div>
+                </div>
+              </div>
+               <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                <div class="row">
+                    <div class="col-2">
+                        <i class="three-reasons-icon fa fa-thumbs-up"
+                        aria-hidden="true"></i>
+                    </div>
+                    <div class="col-10">
+                        <h4 class="three-reasons-heading uppercase">How do i do it?</h4>
+                        <p>
+                        I'll have huge experience once i'll have completed the course.<br>
+                        It stimulates me to find other solutions and face my inability to create, creating.
+                        </p>
+                    </div>
+                </div>
+              </div>
+               <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                <div class="row">
+                    <div class="col-2">
+                        <i class="three-reasons-icon fa fa-bolt"
+                        aria-hidden="true"></i>
+                    </div>
+                    <div class="col-10">
+                        <h4 class="three-reasons-heading uppercase">Why hire me?</h4>
+                        <p>
+                        I work quickly and effectively in getting things built and working across the stack. <br>
+                        I'm an excellent communicator who thrives in bright and enthusiastic teams and
+                        I'm also a self starter when working solo.        
+                        </p>
+                    </div>
+                </div>
+              </div>
             </div>
         </div>
     </div>
@@ -82,7 +202,7 @@ Row-Table da alle nostre colonne la proprieta' di rimanere uguali indipendenteme
         <div class="col-sm-4">
            <h5 class="uppercase general-sub"> About</h5>
            <p class="inline-block">
-            Facciamo del nostro meglio con la Gang per ottenere il sacro Grahal.
+            Full Stack Developer: <br> Loading...
 
            </p>
         </div>
