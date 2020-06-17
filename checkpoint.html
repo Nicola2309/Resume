@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- FILE DA NON UTILIZZARE. 
+     Check point utile per controllare il livello di codice sviluppato per Header e Footer
+     e copiarlo per stilizzare le altre pagine del nostro sito! wow-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -42,99 +45,9 @@
             </div>
         </div>
     </header>
-
-    <section class="container-fluid">
-
-<!--Creiamo un Bootstrap Row, come standard. 
-Row-Table da alle nostre colonne la proprieta' di rimanere uguali indipendentemente dal contenuto. Simmetria, bella.
-Abbiamo rimosso la row-table perche' da problemi di collocamento delle colonne.
-abbiamo definito le loro dimensioni e posizioni una ad una.-->
-
-    <div class="row">
-        <div class="col-md-4 bg-color-personal-info section-column">
-            <div class="row">
-                <div class="col-12">
-                    <h3 class="section-heading uppercase">
-                    Work History
-                    </h3>   
-                </div>
-            </div>
-        </div>
-   
-
-    <!--three-reasons serve a stilizzare le 3 ragioni per essere assunti, seciont-columns ci ricorda che
-    la column del div e' una cella del table che andremo a creare-->
+    <section>
         
-        <div class="col-md-8 bg-color-three-reasons section-columns">
-
-            <!-- Ogni colonna avra' un header, che spiega il contenuto della colonna in questione.
-            Per ottenere questo creiamo un Row e una Column, come impalcatura-->
-
-            <div class="row">
-                <div class="col">
-                 <h3 class="section-heading uppercase">My Skills</h3>
-                </div>
-            </div>
-            <div class="row">
-
-            <!--When looked at on the mobile, this is going to be 10 columns wide
-             with an offset of 1 so that we get the content centered and
-             have a one column margin down the left side.
-             On a desktop, we want it to appear in two columns.
-
-             As we said, though, we have three content sections.
-             But there's only room for two on the desktop, so one of them will fluidly move 
-             to the bottom below the other two.
-             Now we're going to use a Font Awesome icon to identify each one of these.
-             -->
-             <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
-                <div class="row">
-                    <div class="col-2">
-                        <i class="three-reasons-icon fa fa-tv"
-                        aria-hidden="true"></i>
-                    </div>
-                    <div class="col-10">
-                        <h4 class="three-reasons-heading uppercase">Front End</h4>
-                        <p>
-                        I'm a skilled FullStack Developer in my dreams at the moment,<br>
-                        i'd like to become it asap and fill the world with awesome content!
-                        </p>
-                    </div>
-                </div>
-              </div>
-               <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
-                <div class="row">
-                    <div class="col-2">
-                        <i class="three-reasons-icon fa fa-gears"
-                        aria-hidden="true"></i>
-                    </div>
-                    <div class="col-10">
-                        <h4 class="three-reasons-heading uppercase">Back End</h4>
-                        <p>
-                        I'll have huge experience once i'll have completed the course.<br>
-                        It stimulates me to find other solutions and face my inability to create, creating.
-                        </p>
-                    </div>
-                </div>
-              </div>
-               
-            </div>
-            <div class="row">
-                <div class="col">
-                <!-- Lo styling interno delle progress bars e' come bootstrap lo vuole, senno' non funziona.
-                in questa column abbiamno settato che Rosie e' esperta al 90% con HTMLMLMLML -->
-                <div class="progress-bar" role="progress-bar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
-                     style="width:90%;" >
-                     <span class="sr-only"></span>
-                </div>
-                     <span class="progress-type" >HTML/HTML5</span>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</section>
-
+    </section>
     <footer class="container-fluid">
         <div id="footer-details" class="row">
             <div class="col-sm-4">
